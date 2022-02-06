@@ -45,7 +45,7 @@ const App = () => {
       <section className="container">
         <h3>{people.length} birthdays today</h3>
         <List people={people} />
-        <button onClick={() => clearAll()}>clear list</button>
+        <button onClick={() => clearAll()}>clear all</button>
       </section>
     </main>
   );
